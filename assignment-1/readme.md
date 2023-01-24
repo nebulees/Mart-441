@@ -1,0 +1,2 @@
+I know these readme's are supposed to be longer than normal, but I didn't find too much issue with this first assignment. Though I still have trouble understanding the breapoints, and for the life of me, I could not get the hero image's "image" to work. I did get it to work well enough to look nice though. Despite all my search, I couldn't really find much info about either one of these topics, even with the links you provided. 
+
