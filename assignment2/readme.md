@@ -1,0 +1,3 @@
+There really isn't much to talk about this week, doing the assignment was pretty simple, as I think I've grasped what I needed to do. I'm trying to make myself remember what I have to do to do simple tasks, like change the font color without using old code and figure out what exactly I needed to do for this? 
+
+I spent a little too long forgetting that I needed a period to get the background to change to the color I wanted refrencing off of css. I know I don't use the format that You'd like me to for the files, but this is how I do it to make things easier for me to organize. So I hope that doesn't effect things much in the future. 
