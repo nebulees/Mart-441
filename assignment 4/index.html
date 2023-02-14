@@ -1,0 +1,115 @@
+<html>
+    <style>
+        body{
+            background-color: #5c3645;
+            color:blanchedalmond; 
+        }
+    </style>
+    <script>
+        function getChoice1()
+        {
+            var myChoice = document.getElementById("choice").value;
+            var myQuestion = document.getElementById("question");
+            if(myChoice === "Dive")
+            {
+                document.getElementById("choice").style.display="none";
+                document.getElementById("btnSubmit").style.display="none";
+                
+                document.getElementById("choice2").style.display="block";
+                document.getElementById("btnSubmit2").style.display="block";
+                
+
+                myQuestion.innerHTML = "You enter the depths, you find there is a voice, do you speak or listen?";
+            }
+            else if(myChoice === "escape")
+            {
+                document.getElementById("choice").style.display="none";
+                document.getElementById("btnSubmit").style.display="none";
+                
+                document.getElementById("choice3").style.display="block";
+                document.getElementById("btnSubmit3").style.display="block";
+                myQuestion.innerHTML = "There is no escape. Why try? Do you dive, or do you escape.?";
+
+            }
+            else
+            {
+                myQuestion.innerHTML = "Speak again.";
+            }
+        
+        }
+        function getChoice2()
+        {
+            var answer = document.getElementById("choice2").value;
+            var myQuestion = document.getElementById("question");
+            if(answer === "speak")
+            {
+                document.getElementById("mainImage").src = ""
+                myQuestion.innerHTML = "When you speak. There is no sound.";
+            }
+            else if(answer === "listen")
+            {
+                myQuestion.innerHTML = "You hear the song of the deep, it calls out to you, but you may never find solice.";
+            }
+        }
+
+        function getChoice3()
+        {
+            var answer = document.getElementById("choice3").value;
+            var myQuestion = document.getElementById("question");
+            if(answer === "dive.")
+            {
+                document.getElementById("mainImage").src = ""
+                myQuestion.innerHTML = "You sink lower. Do you keep sinking? Or do you float?";
+            }
+            else if(answer === "escape.")
+            {
+                myQuestion.innerHTML = "THERE IS NO ESCAPE..";
+            }
+            
+        }
+    
+        function getChoice4()
+        {
+            var answer = document.getElementById("choice4").value;
+            var myQuestion = document.getElementById("question");
+            if(answer === "sink")
+            {
+                document.getElementById("mainImage").src = ""
+                myQuestion.innerHTML = "You find yourself in a darkness that you cannot pull yourself out of. You find peace.";
+            }
+            else if(answer === "float")
+            {
+                myQuestion.innerHTML = "You're swept away by the sea. They will never find you.";
+            }
+            
+        }
+    </script>
+    <body>
+
+        <h1>DIVE</h1>
+        <br>
+        <img src="haha.jpg" id="mainImage" width="400">
+    <div id="question">
+    <br>
+        Dive into the deep, and find something unexpected. 
+        <br>
+        What do you choose dive or escape?  
+    </div>
+       
+        <br>
+        <input type="text" size="30" id="choice" value="Dive, or escape?">
+        <button id="btnSubmit" onclick="getChoice1();">Click to continue</button>
+
+        <input type="text" size="30" id="choice2" value="speak or listen." style="display:none">
+        <button id="btnSubmit2" onclick="getChoice2();"  style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice3" value="dive. or escape."  style="display:none">
+        <button id="btnSubmit3" onclick="getChoice3();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice4" value="sink or float?"  style="display:none">
+        <button id="btnSubmit4" onclick="getChoice4();" style="display:none">Click to continue</button>
+
+        <button onClick="window.location.href=window.location.href">Return</button>
+    </body>
+    
+</html>
