@@ -1,0 +1,20 @@
+body{
+    background-color:rgb(136, 67, 67);
+    color:azure
+}
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #e97c7c;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #feb8b8;
+	display: table-cell;
+	padding: 3px 10px;
+}
