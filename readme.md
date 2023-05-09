@@ -1,0 +1,3 @@
+I was gonna use something else for the model for this project, but I'm gonna be honest the tablet (You might not see it right away) Is small and funny looking when it roatates I decided to keep it. 
+
+The most challenging thing is finding an object that would work. I also forgot to go live so it took me way too long to figure out why my code wasn't working the way I wanted it to. Otherwise, pretty laid back week. 
